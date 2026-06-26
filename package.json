@@ -1,0 +1,25 @@
+{
+  "name": "codex-maintainer-kit",
+  "version": "0.1.0",
+  "description": "A dependency-free CLI that checks whether an open-source repository is ready for AI-assisted maintenance.",
+  "type": "module",
+  "bin": {
+    "codex-maintainer-kit": "./bin/codex-maintainer-kit.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "check": "node bin/codex-maintainer-kit.js --path . --format markdown"
+  },
+  "keywords": [
+    "codex",
+    "open-source",
+    "maintenance",
+    "agents",
+    "repository-audit"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
